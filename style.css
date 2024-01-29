@@ -1,0 +1,256 @@
+/**********INDEX***********/
+.nav-cls-bgclr{
+    background-color:  #2874a6;
+}
+
+.nav-item  :hover {
+    color: #ffffff;
+}
+
+.w-65{
+width: 65%;
+cursor: pointer;
+}
+
+
+
+/****************************/
+ /* The side navigation menu */
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #123456; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+
+  /********INDEX****************/
+  .h-400{
+    max-height: 490px;
+  }
+
+  .carousel-dark .carousel-caption{
+    color: #ffffff;
+  }
+
+  .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: initial;
+  }
+
+  .carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #ffffff;
+  }
+
+  .p-5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .font-clr-cls{
+    color:  #1a5276 ;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container-cls:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-cls:hover .middle {
+    opacity: 1;
+  }
+
+.container-cls{
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}  
+
+#theyyam:hover{
+  background-color:   #e74c3c  ;
+}
+  
+#yoga:hover{
+ background-color: #5499c7 ; 
+}
+ 
+#ecotourism:hover{
+  background-color:  #1abc9c;
+}
+
+#responsible:hover{
+  background-color: #e67e22;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  /* right: 20px; */
+  font-weight: 600;
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.btn-info{
+  color: #ffffff;
+  border-radius: 0%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1a5276;
+  border: none;
+}
+
+.btn-info:hover{
+  background-color:  #5499c7 ;
+}
+
+.destination-sec{
+  background-color:  #ebf5fb ;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.p-40{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.things-to-do-sec{
+  background-image: url(./img/things-to-do-backgrnd-img.jpg);
+}
+
+.container .overlay-no-change:hover {
+  height: 100% !important;
+}
+
+.overlay-no-change{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */ 
+  width: 100%;
+  transition: .5s ease;
+  cursor: pointer;
+  height: 0;
+}
+
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  color: #ffffff;
+}
+
+.tb-backgrnd {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(206, 49, 49);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-cls:hover .overlay-things {
+  height: 100%;
+}
+/* {
+  opacity: 0.3;
+  background-color: rgba(247, 237, 237, 0.5);
+  transition: .5s ease;
+  /* overflow: hidden; */
+
+
+.overlay-things{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(7, 7, 7, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/*     FOOTER         */
+.btn-primary{
+  background-color: #1a5276;
+  border-color: #1a5276;
+}
+
+
